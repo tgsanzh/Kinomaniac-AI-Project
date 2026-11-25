@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-24T22:15:35+05:00",
+  "time": "2026-11-25T15:59:13+05:00",
   "model": "gpt-6.1-sol",
   "method": "Модели отправлены только id и названия; каталоговые год и minutes не отправлялись.",
   "films": [
@@ -79,9 +79,9 @@
       "catalog_year": 2001,
       "catalog_minutes": 178,
       "model_year": 2001,
-      "model_minutes": 178,
+      "model_minutes": 179,
       "year_match": true,
-      "minutes_match": true
+      "minutes_match": false
     },
     {
       "id": "550",
@@ -99,25 +99,25 @@
       "catalog_year": 2010,
       "catalog_minutes": 120,
       "model_year": 2010,
-      "model_minutes": 120,
+      "model_minutes": 121,
       "year_match": true,
-      "minutes_match": true
+      "minutes_match": false
     }
   ],
   "summary": {
     "checked": 10,
     "year_mismatches": 0,
-    "minutes_mismatches": 2,
+    "minutes_mismatches": 4,
     "extra_ids": []
   },
   "usage": {
-    "completion_tokens": 349,
+    "completion_tokens": 376,
     "prompt_tokens": 351,
-    "total_tokens": 700,
+    "total_tokens": 727,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,
-      "reasoning_tokens": 192,
+      "reasoning_tokens": 219,
       "rejected_prediction_tokens": 0
     },
     "prompt_tokens_details": {
