@@ -1,0 +1,129 @@
+{
+  "time": "2026-11-24T22:15:35+05:00",
+  "model": "gpt-6.1-sol",
+  "method": "Модели отправлены только id и названия; каталоговые год и minutes не отправлялись.",
+  "films": [
+    {
+      "id": "kz-001",
+      "title": "Уроки гармонии",
+      "catalog_year": 2013,
+      "catalog_minutes": 114,
+      "model_year": 2013,
+      "model_minutes": 115,
+      "year_match": true,
+      "minutes_match": false
+    },
+    {
+      "id": "680",
+      "title": "Криминальное чтиво",
+      "catalog_year": 1994,
+      "catalog_minutes": 154,
+      "model_year": 1994,
+      "model_minutes": 154,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "155",
+      "title": "Тёмный рыцарь",
+      "catalog_year": 2008,
+      "catalog_minutes": 152,
+      "model_year": 2008,
+      "model_minutes": 152,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "kz-008",
+      "title": "Земля отцов",
+      "catalog_year": 1966,
+      "catalog_minutes": 86,
+      "model_year": 1966,
+      "model_minutes": 85,
+      "year_match": true,
+      "minutes_match": false
+    },
+    {
+      "id": "37165",
+      "title": "Шоу Трумана",
+      "catalog_year": 1998,
+      "catalog_minutes": 103,
+      "model_year": 1998,
+      "model_minutes": 103,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "807",
+      "title": "Семь",
+      "catalog_year": 1995,
+      "catalog_minutes": 127,
+      "model_year": 1995,
+      "model_minutes": 127,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "1422",
+      "title": "Отступники",
+      "catalog_year": 2006,
+      "catalog_minutes": 151,
+      "model_year": 2006,
+      "model_minutes": 151,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "120",
+      "title": "Властелин колец: Братство кольца",
+      "catalog_year": 2001,
+      "catalog_minutes": 178,
+      "model_year": 2001,
+      "model_minutes": 178,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "550",
+      "title": "Бойцовский клуб",
+      "catalog_year": 1999,
+      "catalog_minutes": 139,
+      "model_year": 1999,
+      "model_minutes": 139,
+      "year_match": true,
+      "minutes_match": true
+    },
+    {
+      "id": "37799",
+      "title": "Социальная сеть",
+      "catalog_year": 2010,
+      "catalog_minutes": 120,
+      "model_year": 2010,
+      "model_minutes": 120,
+      "year_match": true,
+      "minutes_match": true
+    }
+  ],
+  "summary": {
+    "checked": 10,
+    "year_mismatches": 0,
+    "minutes_mismatches": 2,
+    "extra_ids": []
+  },
+  "usage": {
+    "completion_tokens": 349,
+    "prompt_tokens": 351,
+    "total_tokens": 700,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 192,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

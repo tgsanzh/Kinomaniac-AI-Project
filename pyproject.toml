@@ -1,0 +1,17 @@
+[project]
+name = "kinomaniac"
+version = "0.1.0"
+description = "Подбор фильмов из проверяемого каталога с помощью LLM"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.99,<3",
+    "pydantic>=2.8,<3",
+    "python-dotenv>=1,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
